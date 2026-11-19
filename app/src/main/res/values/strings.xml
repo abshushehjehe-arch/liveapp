@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">PulseClip</string>
+    <string name="nav_monitor">Monitor</string>
+    <string name="nav_pipeline">Pipeline</string>
+    <string name="nav_clips">Clips</string>
+    <string name="nav_diagnostics">System</string>
+
+    <string name="monitor_title">Live Control Deck</string>
+    <string name="monitor_subtitle">Keyless multi-channel YouTube chat velocity radar</string>
+    <string name="engine_start">Start Engine</string>
+    <string name="engine_stop">Stop Engine</string>
+    <string name="engine_running">MONITORING LIVE</string>
+    <string name="engine_idle">ENGINE STANDBY</string>
+
+    <string name="add_channel">Add Live Link</string>
+    <string name="add_channel_title">Add Live Video Links (Up to 6)</string>
+    <string name="add_channel_hint">Paste YouTube Live URLs (1 per line) or @handle</string>
+    <string name="add_channel_confirm">Add Live Stream</string>
+    <string name="cancel">Cancel</string>
+    <string name="remove_channel">Remove stream</string>
+    <string name="force_refresh">Refresh live streams</string>
+
+    <string name="notification_permission_title">Background Monitor Notifications</string>
+    <string name="notification_permission_body">Allow notifications so PulseClip can run continuously overnight and show live spike clip progress.</string>
+    <string name="grant_permission">Allow</string>
+
+    <string name="empty_channels_title">No Live Streams Added</string>
+    <string name="empty_channels_body">Paste 1 to 6 YouTube Live Video links (or @handles). Each stream plays in 1080p HD, measures in-player live chat spikes (Wi-Fi safe), and automatically saves 30–45s vertical clips all night.</string>
+
+    <string name="pipeline_title">Auto-Clip Pipeline</string>
+    <string name="pipeline_subtitle">9:16 vertical render, top hook overlay &amp; auto-captions</string>
+    <string name="default_overlay_text">Wait for it</string>
+
+    <string name="clips_title">Local Clip Vault</string>
+    <string name="clips_subtitle">Saved directly to Movies/PulseClip on device</string>
+    <string name="empty_clips_title">No Processed Clips Yet</string>
+    <string name="empty_clips_body">Captured 30–60s highlight clips will appear here automatically after 3x chat velocity spikes subside and finish 9:16 encoding.</string>
+
+    <string name="diagnostics_title">System Telemetry</string>
+    <string name="diagnostics_subtitle">Resource footprint, throughput &amp; API activity</string>
+
+    <string name="notif_channel_name">Live Stream Monitor</string>
+    <string name="notif_channel_desc">Shows multi-channel monitoring status and active clip recording progress</string>
+
+    <string name="share_clip">Share Clip</string>
+    <string name="delete_clip">Delete Clip</string>
+    <string name="back">Back</string>
+    <string name="play_clip">Play Clip</string>
+    <string name="pause_clip">Pause Clip</string>
+    <string name="screen_capture_title">Live Screen Video Bridge</string>
+    <string name="screen_capture_active">Screen Capture Active</string>
+    <string name="screen_capture_inactive">Attach Live Screen Capture</string>
+    <string name="live_video_folder">Live Video Folder</string>
+    <string name="live_video_folder_offline">Auto-opens in 1080p HD when channel goes live</string>
+    <string name="mute_player">Mute mini-player</string>
+    <string name="unmute_player">Unmute mini-player</string>
+    <string name="reload_player">Reload 1080p player</string>
+    <string name="toggle_video_folder">Expand or collapse live video folder</string>
+    <string name="youtube_signin_title">Sign in to YouTube</string>
+    <string name="youtube_signin_subtitle">Log in with Google email to unlock 1080p live playback</string>
+    <string name="youtube_signin_done">Done &amp; Play</string>
+    <string name="youtube_signin_action">YT Sign In</string>
+    <string name="youtube_signed_in_badge">YT Signed In</string>
+    <string name="manual_cut_title">Manual Clip Cut</string>
+    <string name="manual_cut_subtitle_on">Start &amp; Stop cut buttons active on every live stream</string>
+    <string name="manual_cut_subtitle_off">Hidden • Auto chat-spike clipping only</string>
+    <string name="manual_cut_start">Start Cut</string>
+    <string name="manual_cut_stop_save">Stop &amp; Save</string>
+    <string name="manual_cut_cancel">Cancel</string>
+</resources>

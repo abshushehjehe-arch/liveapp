@@ -1,0 +1,6 @@
+{
+  "name": "PulseClip",
+  "description": "Multi-channel YouTube live stream monitor that tracks chat velocity, auto-records 30-60s clips on 3x activity spikes, applies auto-captions and 'Wait for it' overlays, and saves 9:16 vertical videos locally.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
